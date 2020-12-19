@@ -1,0 +1,61 @@
+.alive {
+  color: green;
+}
+
+.dead {
+  color: red;
+}
+
+.unknown {
+  color: blue;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.container{
+  flex: 1 0 auto;
+}
+#root, body, html {
+  height: 100%;
+}
+
+#error_img{
+  margin-bottom: 30px;
+}
+
+.modal-footerr{
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-secondary{
+margin-left: 15px;
+}
+.card-text strong{
+  color: darkgoldenrod;
+}
+#focused_header_down{
+background: darkolivegreen;
+}
+#focused_header_up{
+  background: darkolivegreen;
+  }
+#focused_header_down::after{
+  content: '\25BC';
+  margin-left: 5px;
+}
+#focused_header_up::after{
+  content: '\25B2';
+  margin-left: 5px;
+}
+.thead-dark{
+  cursor: default;
+}
+.header_item::selection{
+  background: transparent;
+}
+.shift_main_content{
+  margin-bottom: 30px;
+}

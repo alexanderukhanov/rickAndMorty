@@ -1,0 +1,14 @@
+.text-gray {
+  color: rgb(158, 158, 158);
+}
+
+.page-link::selection{
+  background: transparent;
+}
+
+#nuber_of_pages{
+ text-align: center;
+}
+.search_button{
+  margin-right: 7px;
+}
